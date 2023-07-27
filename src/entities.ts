@@ -22,7 +22,10 @@ export interface Annonce {
 
 export interface Emprunt{
     _id?:any;
-    _idObjet?:any;
+    Objet:{
+        _id?:any;
+        name:string;
+    }
     date: Date;
     demande:string;
     status:string;

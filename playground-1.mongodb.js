@@ -62,3 +62,21 @@ use('Projet_Partage');
 // ])
 
 
+// db.emprunt.insertOne([
+//         {
+//             demande: 'Dracaufeu EX SHINY',
+//             date: '2023/10/10',
+//             status: 'En Cours',
+//             User: {
+//                  "_id": {
+//                 "$oid": "64c0e676796c85b12a91a49c"},
+//             },
+//             Objet:{
+//                "_id":{
+//               "$oid": "64c0e8c7eee0e62bdbbf3641"},
+//                 name:"pedro"
+//             }
+//         }
+//     ])
+    
+    

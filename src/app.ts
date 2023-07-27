@@ -18,7 +18,7 @@ app.use(cors());
 
 // //Ici, on assigne notre contrôleur à la route /api/example, ce qui fait que toutes les routes définies dans le contrôleur seront préfixées par /api/example
  app.use('/api/emprunt', empruntController);
- app.use('/api/first',annonceController);
+ app.use('/api/annonce',annonceController);
  app.use(authController);
 
 //On dit à l'application d'écouter les requêtes http sur le port choisit
